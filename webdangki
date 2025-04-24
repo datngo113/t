@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Nguyễn Quốc Trung" />
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" type="text/css" href="BAI1.css">
+</head>
+<body>
+    <div class="vao">
+        <h1><b>Đăng Ký</b></h1>
+        <input type="text" placeholder="Họ và tên"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="text" placeholder="Tên đăng nhập"><br>
+        <input type="password" placeholder="Mật khẩu"><br>
+        <input type="password" placeholder="Nhập lại mật khẩu"><br>
+        <button type="submit">Tạo Tài Khoản</button><br><br>
+        <a href="BAI1.html">Quay lại đăng nhập</a>
+    </div>
+</body>
+</html>
