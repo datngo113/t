@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+/* Thanh ngang */
+.thanhngang {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.thanhngang button:hover {
+    background-color: #e84118;
+}
+.thanhngang button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff4757;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.thanhngang a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.thanhngang a:hover {
+    color: #ffdd57;
+}
+/* Logo căn về bên trái */
+.chulogo{
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Đẩy các phần tử khác sang phải */
+}
+.logo img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+}
+
+/* Ô tìm kiếm */
+.timkiem input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 500px;
+    transition: width 0.3s ease;
+}
+/*danh mục sản phẩm*/
+.danhmucsp {
+    width: 250px;
+    height: calc(100vh - 60px); 
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    float:  left;
+    border-radius: 10px;
+}
+.danhmucsp h2 {
+    text-align: center;
+}
+.danhmucsp a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+  }
+/* chân trang */
+footer {
+    background-color: #efe8e8;
+    color: rgb(4, 1, 1);
+    padding: 20px 0;
+    text-align: center;
+}
+.noichua {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chantrang1, .chantrang2, .chantrang3 {
+    width: 30%;
+    padding: 10px;
+}
+
+.follow, .guide, .contact {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f39c12;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.chantrang1 a, .chantrang2 a, .chantrang3 a {
+    display: block;
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.chantrang1 a:hover, .chantrang2 a:hover, .chantrang3 a:hover {
+    color: #f39c12;
+}
+
+.footer-duoi {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+/* Qui định chung*/
+.km,.give,.mc,.htmn,.gyhn{
+    display: flex;
+    background: rgb(15, 57, 182);
+    border: #190804;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+/* Gợi ý hôm nay */
+.gyhn {
+    width: 1170px;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 20px;
+    color: white;
+    margin-bottom: 10pxpx;
+    text-align: center;
+}
+/* Hàng khuyến mãi */
+.km{
+    width: 1170px;
+    height: 200px;
+    color: white;
+}
+/* Máy cũ thu cũ */
+.mc{
+    width: 1170px;
+    height: 200px;
+    color: white;
+}
+ /*Hàng tốt mọi ngày*/
+ .htmn{
+    width: 1170px;
+    height: 200px;
+    color: white;
+ }
+ /*Give away 10k*/
+ .give{
+    width: 1170px;
+    height: 200px;
+    color: white;
+ }
+
+ .danhsach-mayinvanphong {
+    margin-left: 270px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.danhsach-mayinvanphong .sanpham {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.danhsach-mayinvanphong .sanpham:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.danhsach-mayinvanphong .sanpham img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.danhsach-mayinvanphong .sanpham h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+.danhsach-mayinvanphong .sanpham .gia {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.danhsach-mayinvanphong .sanpham .chucnang {
+    font-size: 14px;
+    color: #666;
+}
+
+.sanpham-box {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .sanpham-box img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+.vanphong {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
