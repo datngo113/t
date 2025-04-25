@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.thanhngang {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.thanhngang button:hover {
+    background-color: #e84118;
+}
+.thanhngang button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff4757;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.thanhngang a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.thanhngang a:hover {
+    color: #ffdd57;
+}
+.chulogo{
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+}
+.logo img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+}
+
+
+.timkiem input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 500px;
+    transition: width 0.3s ease;
+}
+.danhmucsp {
+    width: 250px;
+    height: calc(100vh - 60px); 
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    float:  left;
+    border-radius: 10px;
+}
+.danhmucsp h2 {
+    text-align: center;
+}
+.danhmucsp a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+  }
+
+  .danhmucsp li:hover {
+    background-color: #797474; 
+    border-radius: 10px; 
+}
+
+footer {
+    background-color: #efe8e8;
+    color: rgb(4, 1, 1);
+    padding: 20px 0;
+    text-align: center;
+    
+}
+.noichua {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chantrang1, .chantrang2, .chantrang3 {
+    width: 30%;
+    padding: 10px;
+}
+
+.follow, .guide, .contact {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f39c12;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.chantrang1 a, .chantrang2 a, .chantrang3 a {
+    display: block;
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.chantrang1 a:hover, .chantrang2 a:hover, .chantrang3 a:hover {
+    color: #f39c12;
+}
+
+.footer-duoi {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+/* Qui định chung*/
+.km,.give,.mc,.htmn,.gyhn{
+    display: flex;
+    background: rgb(15, 57, 182);
+    border: #190804;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.Mucmayin {
+    margin: 10px auto;
+    padding: 20px;
+    width: 77%;
+    background-color: white;
+    border-radius: 10px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    margin-left: 300px;
+    font-size: 20px; /* Tăng kích thước chữ tiêu đề */
+    font-weight: 700;
+}
+.Tcsp{
+    margin: 10px auto;
+    padding: 20px;
+    width: 77%;
+    margin-left: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+/* Tiêu đề H2 */
+.Tcsp h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Danh sách ngang */
+.Tcsp ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Khoảng cách giữa các sản phẩm */
+}
+
+/* Khung tròn bao quanh chữ */
+.Tcsp li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 50px; /* Khung tròn */
+    transition: all 0.3s;
+}
+
+/* Hiệu ứng khi di chuột */
+.Tcsp li a:hover {
+    background-color: #4e54c8;
+    color: white;
+}
+/* Hiển thị các sản phẩm theo hàng ngang với khoảng cách giữa chúng */
+.dssp {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.sp-row {
+    display: flex; /* Sắp xếp các sản phẩm theo hàng ngang */
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+}
+/* Kích thước và kiểu dáng của thẻ sản phẩm */
+.sp-card {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+/* Tạo hiệu ứng phóng to nhẹ và đổ bóng khi rê chuột vào sản phẩm */
+.sp-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Khung hiển thị hình ảnh của sản phẩm */
+.sp-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+/* Khung chứa thông tin sản phẩm */
+.spsp-info {
+    padding-top: 10px;
+}
+/* Phần hiển thị giá sản phẩm */
+.sp-price {
+    /* Căn đều giá và giảm giá trong cùng một dòng */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+/* Màu đỏ nổi bật cho giá bán */
+.sp-price .price {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* Thương hiệu sản phẩm */
+.sp-brand {
+    font-size: 13px;
+    color: grey;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+/* Mô tả sản phẩm */
+.sp-description {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+    text-align: justify;
+    line-height: 1.4;
+    max-height: 40px;/* Giới hạn chiều cao để tránh văn bản quá dài */
+    overflow: hidden;/* Ẩn phần văn bản bị tràn */
+}
